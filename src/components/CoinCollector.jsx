@@ -39,7 +39,7 @@ const CoinCollector = () => {
         <button onClick={()=>dispatch({type:'COLLECT_5_COINS'})}>COLLECT_5_COINS</button>
         <button onClick={()=>dispatch({type:'BONUS'})}>BONUS</button>
         <button onClick={()=>dispatch({type:'LEVEL_UP'})}>LEVEL_UP</button>
-        <button onClick={()=>dispatch({type:'RESET'})}>RESET</button>
+        <button onClick={()=>dispatch({type:'RESET'})}>RESET</button>    
 
     </>
   )
